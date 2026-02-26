@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1d1d1d;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: #2b2b2b;
+}
+
+.operador {
+    color: orange;
+    font-weight: bold;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px repeat(5, 60px);
+    background-color: #000000;
+    gap: 10px;
+    border: solid black 5px;
+    padding: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.visor {
+    background-color: #f2f2f2;
+    grid-row: 1 ;
+    grid-column: 1 / 5;
+    padding: 15px;
+    border: solid black 5px;
+    border-radius: 10px;
+}
+
+.visor p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px;
+}
+
+.zero {
+    grid-column: span 2;
+}
+
+.igual {
+    background-color: orange;
+    color: aliceblue;
+    font-weight: bold;
+    grid-row: span 2;
+}
+
+.igual:hover {
+    background-color: rgb(255, 182, 46);
+}
