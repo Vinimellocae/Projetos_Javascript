@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background: #dbdb00;
+    background: linear-gradient(90deg, rgba(219, 219, 0, 1) 38%, rgba(219, 219, 0, 1) 44%, rgba(218, 216, 0, 1) 47%, rgba(191, 115, 0, 1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.315) 0px 5px 15px;
+    padding: 10px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f2f2f2;
+}
+
+label {
+    color: #000000;
+    font-weight: 600;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: #000000;
+}
+
+.filtros, .input-area {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.filtros select, button, input {
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: solid rgb(43, 43, 43) 2px;
+    border-radius: 5px;
+} 
+
+.lista {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.527) 0px 5px 15px;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: rgb(0, 184, 9);
+}
+
+#taskList {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+
+#taskList li span {
+    flex: 1; 
+}
+
+#taskList li div {
+    display: flex;
+    gap: 2px;
+}
